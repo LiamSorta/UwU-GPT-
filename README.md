@@ -1,6 +1,6 @@
 # UwU Translator Chrome Extension
 
-**Disclaimer: This is a fun and terrible plugin for educational purposes only. It is not suitable for production use, and the translation quality is not guaranteed. Please use it at your own risk.**
+**Disclaimer: This is a terrible plugin. It was made in 10 minutes using GPT. I didn't even write this readme.**
 
 A simple Chrome extension that translates the text content of a web page into UwU-style using OpenAI's GPT-3.5 Turbo.
 
