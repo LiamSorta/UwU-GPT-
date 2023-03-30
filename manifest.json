@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "UwU Translator",
+  "version": "1.0",
+  "description": "Translate all text on a page to uwu-style text using OpenAI GPT API.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": ["https://api.openai.com/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
