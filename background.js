@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'translateToUwu') {
-    const openaiApiKey = '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';
+    const openaiApiKey = 'API Key Here';
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
     fetch(apiUrl, {
